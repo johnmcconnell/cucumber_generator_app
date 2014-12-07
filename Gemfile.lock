@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:johnmcconnell/cucumber_generator.git
-  revision: 11cf0ae1ed2df6a1db6d6d13d3810a66ddf6f0ea
+  revision: 2befcd537b36734f41170c969c890470f8e14ddb
   specs:
     cucumber_generator (0.0.1)
       rails (~> 4.1.0)
@@ -155,7 +155,6 @@ GEM
     parser (2.2.0.pre.8)
       ast (>= 1.1, < 3.0)
       slop (~> 3.4, >= 3.4.5)
-    pg (0.17.1)
     polyglot (0.3.5)
     powerpack (0.0.9)
     puma (2.10.2)
@@ -241,6 +240,7 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
+    sqlite3 (1.3.10)
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
@@ -294,7 +294,6 @@ DEPENDENCIES
   less-rails
   nested_form
   nokogiri
-  pg
   puma
   rails (= 4.1.5)
   rails_12factor
@@ -306,6 +305,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
+  sqlite3
   therubyracer
   turbolinks
   twitter-bootstrap-rails

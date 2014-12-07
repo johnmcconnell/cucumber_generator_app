@@ -4,8 +4,7 @@ gem 'nokogiri'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
-# Use postgresql as the database for Active Record
-gem 'pg'
+gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -21,7 +20,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'spring',        group: :development
-gem 'cucumber_generator', git: 'git@github.com:johnmcconnell/cucumber_generator.git'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -49,6 +47,10 @@ gem 'acts_as_list'
 gem 'draper'
 gem 'interactor-rails'
 gem 'freebase-api'
+
+group :development do
+  gem 'cucumber_generator', git: 'git@github.com:johnmcconnell/cucumber_generator.git'
+end
 
 group :test do
   gem 'vcr'
