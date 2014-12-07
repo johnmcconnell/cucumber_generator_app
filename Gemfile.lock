@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:johnmcconnell/cucumber_generator.git
-  revision: 2befcd537b36734f41170c969c890470f8e14ddb
+  revision: fc7b06bbbfaa9dd830fc8cbd35123e6dc4c7752d
   specs:
     cucumber_generator (0.0.1)
       rails (~> 4.1.0)
